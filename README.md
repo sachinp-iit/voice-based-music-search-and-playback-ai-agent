@@ -1,4 +1,4 @@
-# Voice Bollywood Song AI Agent 🎶
+# Voice Based Bollywood Song Search & Playback AI Agent
 
 This repository contains an AI Agent system that allows users to **search and play Bollywood songs via voice commands** using GPT-4o-mini, FAISS/Chroma for retrieval, and event-based agent communication (Google-style Agent-to-Agent protocol).
 
