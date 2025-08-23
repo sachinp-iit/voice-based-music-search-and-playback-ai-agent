@@ -1,0 +1,23 @@
+# Core AI + LLM
+openai>=1.0.0
+
+# Vector Databases
+faiss-cpu
+chromadb
+
+# NLP + Embeddings
+sentence-transformers
+numpy
+pandas
+
+# Voice Input/Output
+SpeechRecognition
+pyttsx3
+pyaudio
+
+# Web Scraping / API Calls
+requests
+beautifulsoup4
+
+# Colab / Utility
+ipywidgets
