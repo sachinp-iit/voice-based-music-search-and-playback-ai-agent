@@ -3,11 +3,11 @@
 This repository contains an AI Agent system that allows users to **search and play Bollywood songs via voice commands** using GPT-4o-mini, FAISS/Chroma for retrieval, and event-based agent communication (Google-style Agent-to-Agent protocol).
 
 ## Features
-- 🎤 **Voice Input**: Users request songs using speech (STT).  
-- 🔍 **Song Retrieval**: Finds Bollywood songs via APIs or vector DB (FAISS + Chroma).  
-- 🤖 **Agent Collaboration**: Agents communicate using Google Agent-to-Agent protocol (event/message passing).  
-- 🎶 **Playback**: Streams Bollywood songs with user consent.  
-- 🧠 **Memory**: Maintains user song history for personalized recommendations.  
+- **Voice Input**: Users request songs using speech (STT).  
+- **Song Retrieval**: Finds Bollywood songs via APIs or vector DB (FAISS + Chroma).  
+- **Agent Collaboration**: Agents communicate using Google Agent-to-Agent protocol (event/message passing).  
+- **Playback**: Streams Bollywood songs with user consent.  
+- **Memory**: Maintains user song history for personalized recommendations.  
 
 ## Agent Architecture
 1. **Voice Agent** → Converts voice to text.  
