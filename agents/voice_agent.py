@@ -12,7 +12,7 @@ class VoiceAgent:
     def listen(self):
         """Listen from microphone and publish user query as event."""
         with self.microphone as source:
-            print("🎤 Listening... Speak now.")
+            print("Listening... Speak now.")
             audio = self.recognizer.listen(source)
 
         try:
