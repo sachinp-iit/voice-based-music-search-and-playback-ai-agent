@@ -19,5 +19,11 @@ pyaudio
 requests
 beautifulsoup4
 
+# YouTube Search + Playback
+yt-dlp
+pytube
+python-vlc
+simpleaudio
+
 # Colab / Utility
 ipywidgets
