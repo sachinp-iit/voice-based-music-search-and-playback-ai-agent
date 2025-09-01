@@ -41,3 +41,25 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+## 📂 Project Structure
+
+```plaintext
+voice-based-music-search-and-playback-ai-agent/                # GitHub root
+│
+├── requirements.txt           # finalized dependencies
+├── README.md                  # project intro + usage
+│
+├── main.py                    # entrypoint that wires all agents + bus
+│
+├── core/                      # shared infra
+│   ├── event_bus.py           # Google-style agent-to-agent bus
+│   └── utils.py               # helper functions (if needed)
+│
+├── agents/                    # all AI agents
+│   ├── voice_agent.py         # handles speech-to-text + text-to-speech
+│   ├── rag_agent.py           # vector search using Chroma/FAISS
+│   ├── search_agent.py        # finds songs on YouTube
+│   └── playback_agent.py      # plays audio from YouTube
+│
+├── data/                      # embeddings / FAISS / ChromaDB storage
+│   └── songs_index/           
